@@ -23,6 +23,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		800511E7AE99AAB7E08F639C /* Pods_JCategoryKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD2E2E043B2028533A0E7FC /* Pods_JCategoryKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9B990BA4239E55F3000C4D71 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B990B9E239E55F3000C4D71 /* UIView+Addition.m */; };
+		9B990BA5239E55F3000C4D71 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B990B9F239E55F3000C4D71 /* UIView+Common.m */; };
+		9B990BA6239E55F3000C4D71 /* UIColor+RGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B990BA2239E55F3000C4D71 /* UIColor+RGBA.m */; };
 		C0E5E4A6752B928D34FCB2F1 /* Pods_JCategoryKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F837FF53C06C2EA8E632881C /* Pods_JCategoryKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,12 +63,18 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86966BD8A619574644004A45 /* JCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JCategoryKit.podspec; path = ../JCategoryKit.podspec; sourceTree = "<group>"; };
+		86966BD8A619574644004A45 /* JCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JCategoryKit.podspec; path = ../JCategoryKit.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94A41CEBA6E8C69263719768 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		94A41CEBA6E8C69263719768 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9937D1A402176BA8571CAE2E /* Pods-JCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCategoryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-JCategoryKit_Example/Pods-JCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9B990B9E239E55F3000C4D71 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		9B990B9F239E55F3000C4D71 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		9B990BA0239E55F3000C4D71 /* UIColor+RGBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBA.h"; sourceTree = "<group>"; };
+		9B990BA1239E55F3000C4D71 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		9B990BA2239E55F3000C4D71 /* UIColor+RGBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBA.m"; sourceTree = "<group>"; };
+		9B990BA3239E55F3000C4D71 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		C6EC59B95F4B2266C4E484F8 /* Pods-JCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCategoryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JCategoryKit_Tests/Pods-JCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DE07F125E81AB5641E82CD1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DE07F125E81AB5641E82CD1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F837FF53C06C2EA8E632881C /* Pods_JCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,13 +112,13 @@
 				C6EC59B95F4B2266C4E484F8 /* Pods-JCategoryKit_Tests.debug.xcconfig */,
 				546D6F807E687308BC6760F6 /* Pods-JCategoryKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				9B990B9D239E55F3000C4D71 /* Categorys */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for JCategoryKit */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -197,6 +206,20 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		9B990B9D239E55F3000C4D71 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				9B990B9E239E55F3000C4D71 /* UIView+Addition.m */,
+				9B990B9F239E55F3000C4D71 /* UIView+Common.m */,
+				9B990BA0239E55F3000C4D71 /* UIColor+RGBA.h */,
+				9B990BA1239E55F3000C4D71 /* UIView+Addition.h */,
+				9B990BA2239E55F3000C4D71 /* UIColor+RGBA.m */,
+				9B990BA3239E55F3000C4D71 /* UIView+Common.h */,
+			);
+			name = Categorys;
+			path = JCategoryKit/Categorys;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -258,6 +281,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,9 +388,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B990BA4239E55F3000C4D71 /* UIView+Addition.m in Sources */,
+				9B990BA5239E55F3000C4D71 /* UIView+Common.m in Sources */,
 				6003F59E195388D20070C39A /* JAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				9B990BA6239E55F3000C4D71 /* UIColor+RGBA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

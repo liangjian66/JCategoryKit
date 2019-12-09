@@ -1,6 +1,6 @@
 {
   "name": "JCategoryKit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of JCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/2695621767@qq.com/JCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/2695621767@qq.com/JCategoryKit.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
