@@ -1,0 +1,22 @@
+{
+  "name": "JCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of JCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2695621767@qq.com/JCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2695621767@qq.com": "2695621767@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/2695621767@qq.com/JCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JCategoryKit/Classes/**/*"
+}
