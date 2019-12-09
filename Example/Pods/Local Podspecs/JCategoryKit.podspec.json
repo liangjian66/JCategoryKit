@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "summary": "A short description of JCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/2695621767@qq.com/JCategoryKit",
+  "homepage": "https://github.com/liangjian66/JCategoryKit.git/JCategoryKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "2695621767@qq.com": "2695621767@qq.com"
+    "liangjian66": "2695621767@qq.com"
   },
   "source": {
-    "git": "https://github.com/2695621767@qq.com/JCategoryKit.git",
+    "git": "https://github.com/liangjian66/JCategoryKit.git/JCategoryKit.git",
     "tag": "1.0.0"
   },
   "platforms": {

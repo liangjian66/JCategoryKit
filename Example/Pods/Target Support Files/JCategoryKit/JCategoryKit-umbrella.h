@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "UIColor+RGBA.h"
+#import "UIView+Addition.h"
+#import "UIView+Common.h"
 
 FOUNDATION_EXPORT double JCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char JCategoryKitVersionString[];
